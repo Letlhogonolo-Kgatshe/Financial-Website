@@ -25,12 +25,16 @@
                 <ul id="nav-links" role="navigation">
                     <li><a href="#hero" aria-label="Home">Home</a></li>
                     <li><a href="#about" aria-label="About">About</a></li>
+                    <li><a href="#how-to-start" aria-label="How to Start">How to Start</a></li>
+                    <li><a href="#tools" aria-label="Tools">Tools</a></li>
                     <li><a href="#definitions" aria-label="Definitions">Definitions</a></li>
                     <li><a href="#youtube" aria-label="YouTube">YouTube</a></li>
                     <li><a href="#podcasts" aria-label="Podcasts">Podcasts</a></li>
                     <li><a href="#articles" aria-label="Articles">Articles</a></li>
                     <li><a href="#news" aria-label="News">News</a></li>
+                    <li><a href="#courses" aria-label="Courses">Courses</a></li>
                     <li><a href="#community" aria-label="Community">Community</a></li>
+                    <li><a href="#faq" aria-label="FAQ">FAQ</a></li>
                     <li><a href="#contact" aria-label="Contact">Contact</a></li>
                 </ul>
                 <div class="hamburger" id="hamburger" aria-label="Toggle Menu">
@@ -39,8 +43,8 @@
             </nav>
         </div>
     </header>
- 
-  <section id="hero">
+
+    <section id="hero">
         <div class="container">
             <h1>Welcome to FinLit</h1>
             <p class="tagline">Empowering Wealth Creation Through Financial Literacy</p>
@@ -61,7 +65,13 @@
         </div>
     </section>
 
-
+    <section class="cta" id="quiz-cta">
+        <div class="container">
+            <h2>Take the Money Personality Quiz</h2>
+            <p>Discover your strengths and weaknesses when it comes to money.</p>
+            <a href="#quiz" class="btn btn-primary">Start Quiz</a>
+        </div>
+    </section>
 
     <section id="how-to-start">
         <div class="container">
@@ -87,342 +97,366 @@
         </div>
     </section>
 
-<section id="definitions">
-    <div class="container">
-        <h2>Financial Definitions</h2>
-        <p>Learn essential financial terms with simple explanations and test your knowledge with a quick quiz.</p>
+    <section id="tools">
+        <div class="container">
+            <h2>Local Resources & Tools</h2>
+            <p>Access helpful tools to manage your finances:</p>
+            <ul>
+                <li><a href="#">Download Budget Template</a></li>
+                <li><a href="#">Use Investment Calculator</a></li>
+                <li><a href="https://www.sars.gov.za/" target="_blank">SARS Tax Tools</a></li>
+            </ul>
+        </div>
+    </section>
 
-        <!-- Budgeting & Planning -->
-        <h3 class="group-title">Budgeting &amp; Planning</h3>
-        <div class="definition-item">
-            <h3>Budgeting</h3>
-            <p>Budgeting is the process of creating a plan to manage your income and expenses. For example, using a 50/30/20 rule, you allocate 50% of your income to needs, 30% to wants, and 20% to savings or debt repayment.</p>
-            <p>Example: Budgeting for monthly groceries, transport, entertainment, and savings.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Financial Plans</h3>
-            <p>A financial plan combines your income, expenses, savings, and investments to achieve medium- and long-term financial goals. It helps you stay on track with your budget and prepares you for future events like education, retirement, or buying a home.</p>
-            <p>Example: A family saving for university contributes R2,000 monthly to a Tax-Free Savings Account (TFSA), leveraging tax-free growth for 15 years.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Emergency Fund</h3>
-            <p>An emergency fund is money set aside to cover unexpected expenses like medical bills, car repairs, or job loss. It usually covers 3–6 months of living costs.</p>
-            <p>Example: Keeping R50,000 aside for medical emergencies or job loss.</p>
-        </div>
+    <section id="definitions">
+        <div class="container">
+            <h2>Financial Definitions</h2>
+            <p>Learn essential financial terms with simple explanations and test your knowledge with a quick quiz.</p>
 
-        <!-- Income & Expenses -->
-        <h3 class="group-title">Income &amp; Expenses</h3>
-        <div class="definition-item">
-            <h3>Saving</h3>
-            <p>Saving involves setting aside money for future use, like an emergency fund or a big purchase. For instance, saving R500 monthly in a high-interest account can grow over time.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Assets vs. Liabilities</h3>
-            <p>Assets are things that generate income or appreciate in value, like property, stocks, or businesses.</p>
-            <p>Liabilities are things that cost you money, like debt, loans, and expenses.</p>
-            <p>Example: Owning a home (asset) that increases in value vs. paying off a car loan (liability) that reduces your financial position.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Income vs. Expenditure</h3>
-            <p>Income is the money you earn, whether from a salary, business, or investments.</p>
-            <p>Expenditure is the money you spend on living costs, such as food, rent, utilities, and debt repayments.</p>
-            <p>Example: A monthly salary vs. monthly rent payments. Reducing unnecessary expenditure helps increase your savings.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Cash Flow</h3>
-            <p>The movement of money in and out of your account. Positive cash flow occurs when income exceeds expenses, while negative cash flow means you're spending more than you earn.</p>
-            <p>Example: You earn R10,000 per month, but your total expenses are R8,000. You have R2,000 in positive cash flow to save or invest.</p>
-        </div>
+            <!-- Budgeting & Planning -->
+            <h3 class="group-title">Budgeting & Planning</h3>
+            <div class="definition-item">
+                <h3>Budgeting</h3>
+                <p>Budgeting is the process of creating a plan to manage your income and expenses. For example, using a 50/30/20 rule, you allocate 50% of your income to needs, 30% to wants, and 20% to savings or debt repayment.</p>
+                <p>Example: Budgeting for monthly groceries, transport, entertainment, and savings.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Financial Plans</h3>
+                <p>A financial plan combines your income, expenses, savings, and investments to achieve medium- and long-term financial goals. It helps you stay on track with your budget and prepares you for future events like education, retirement, or buying a home.</p>
+                <p>Example: A family saving for university contributes R2,000 monthly to a Tax-Free Savings Account (TFSA), leveraging tax-free growth for 15 years.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Emergency Fund</h3>
+                <p>An emergency fund is money set aside to cover unexpected expenses like medical bills, car repairs, or job loss. It usually covers 3–6 months of living costs.</p>
+                <p>Example: Keeping R50,000 aside for medical emergencies or job loss.</p>
+            </div>
 
-        <!-- Investing -->
-        <h3 class="group-title">Investing</h3>
-        <div class="definition-item">
-            <h3>Types of Investments</h3>
-            <p>Different investments (stocks, bonds, real estate) offer varying returns and risk profiles.</p>
-            <p>Example: Use EasyEquities to buy stocks and ETFs for growth, bond ETFs for stability, and consider real estate for income and value appreciation.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Diversification</h3>
-            <p>Diversification means spreading investments across various asset classes to minimize risk. By diversifying, you can protect yourself from market fluctuations in one sector.</p>
-            <p>Example: Rather than investing all your money in one stock, you could invest in a mix of stocks, bonds, real estate, and a retirement plan to balance risk.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Asset Allocation &amp; Diversification</h3>
-            <p>Asset allocation involves dividing your portfolio among different asset classes, while diversification spreads investments within those classes to reduce risk.</p>
-            <p>Example: Create a diversified portfolio on EasyEquities by investing in local and international ETFs and stocks from different sectors.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Compound Interest</h3>
-            <p>Compound interest is the interest on both the initial principal and the accumulated interest from previous periods, accelerating growth over time.</p>
-            <p>Example: R10,000 earning 8% annually grows to R14,693 after five years of compounding.</p>
-        </div>
+            <!-- Income & Expenses -->
+            <h3 class="group-title">Income & Expenses</h3>
+            <div class="definition-item">
+                <h3>Saving</h3>
+                <p>Saving involves setting aside money for future use, like an emergency fund or a big purchase. For instance, saving R500 monthly in a high-interest account can grow over time.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Assets vs. Liabilities</h3>
+                <p>Assets are things that generate income or appreciate in value, like property, stocks, or businesses.</p>
+                <p>Liabilities are things that cost you money, like debt, loans, and expenses.</p>
+                <p>Example: Owning a home (asset) that increases in value vs. paying off a car loan (liability) that reduces your financial position.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Income vs. Expenditure</h3>
+                <p>Income is the money you earn, whether from a salary, business, or investments.</p>
+                <p>Expenditure is the money you spend on living costs, such as food, rent, utilities, and debt repayments.</p>
+                <p>Example: A monthly salary vs. monthly rent payments. Reducing unnecessary expenditure helps increase your savings.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Cash Flow</h3>
+                <p>The movement of money in and out of your account. Positive cash flow occurs when income exceeds expenses, while negative cash flow means you're spending more than you earn.</p>
+                <p>Example: You earn R10,000 per month, but your total expenses are R8,000. You have R2,000 in positive cash flow to save or invest.</p>
+            </div>
 
-        <!-- Markets & Products -->
-        <h3 class="group-title">Markets &amp; Products</h3>
-        <div class="definition-item">
-            <h3>ETF (Exchange-Traded Fund)</h3>
-            <p>An ETF is a collection of stocks or bonds that tracks an index and is traded on a stock exchange. It provides diversification and usually has low fees.</p>
-            <p>Example: Investing in a SATRIX 40 ETF to gain exposure to the JSE's top-performing companies.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Unit Trust</h3>
-            <p>A unit trust is a fund where many investors pool their money, which is then managed by professionals to invest in stocks, bonds, or property.</p>
-            <p>Example: Saving R5,000 monthly in a balanced unit trust to fund future purchases.</p>
-        </div>
-        <div class="definition-item">
-            <h3>JSE (Johannesburg Stock Exchange)</h3>
-            <p>The JSE is South Africa’s main stock market where shares of companies are bought and sold. It allows investors to buy ownership in businesses.</p>
-            <p>Example: Buying MTN shares at R130 each through an online stockbroker.</p>
-        </div>
-        <div class="definition-item">
-            <h3>JSE Hours &amp; Days</h3>
-            <p>The JSE operates Monday to Friday, from 9:00 AM to 5:00 PM, excluding South African public holidays.</p>
-            <p>Example: Trading Sasol shares on a Tuesday afternoon during market hours.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Alternative Stocks</h3>
-            <p>Alternative stocks refer to investments outside traditional sectors, such as renewable energy, commodities, or emerging tech companies.</p>
-            <p>Example: Investing in a green energy firm listed on the JSE.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Property</h3>
-            <p>Property investment involves buying real estate to earn rental income or benefit from long-term value increases.</p>
-            <p>Example: Owning a R2 million apartment that generates R15,000 monthly in rental income.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Stocks</h3>
-            <p>Stocks are shares of ownership in a company. Investors can earn money through price increases (capital gains) and dividends.</p>
-            <p>Example: Investing in Woolworths shares for steady dividend payouts.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Dividends</h3>
-            <p>Dividends are payments made by a company to its shareholders from its profits. They provide regular income to investors.</p>
-            <p>Example: Receiving R2,000 in annual dividends for holding 1,000 shares.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Bull Market</h3>
-            <p>A bull market occurs when stock prices are rising over time, indicating strong investor confidence and economic growth.</p>
-            <p>Example: The JSE Top 40 index gains 20% over six months due to strong corporate earnings.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Bear Market</h3>
-            <p>A bear market happens when stock prices drop 20% or more, often caused by economic slowdowns or negative investor sentiment.</p>
-            <p>Example: The JSE falls sharply during a recession, leading to a bear market.</p>
-        </div>
-        <div class="definition-item">
-            <h3>S&amp;P 500</h3>
-            <p>The S&amp;P 500 is a U.S. stock market index that tracks the 500 largest companies. It is used to measure the overall performance of the American stock market.</p>
-            <p>Example: Investing in an ETF tracking the S&amp;P 500 for international diversification.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Top 40</h3>
-            <p>The Top 40 refers to the 40 largest companies listed on the JSE, by market value. It provides a snapshot of South Africa’s major businesses.</p>
-            <p>Example: Investing in a Top 40 ETF for exposure to leading South African firms.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Trust Fund</h3>
-            <p>A trust fund is a legal structure that holds money or assets on behalf of someone, usually for long-term care or inheritance purposes.</p>
-            <p>Example: Parents setting up a trust fund for their children’s education.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Middle Class</h3>
-            <p>The middle class includes people or families who earn enough to afford basic needs and some extra comforts. They usually have steady jobs and savings.</p>
-            <p>Example: A family earning R20,000 monthly, affording housing, schooling, and leisure activities.</p>
-        </div>
+            <!-- Investing -->
+            <h3 class="group-title">Investing</h3>
+            <div class="definition-item">
+                <h3>Types of Investments</h3>
+                <p>Different investments (stocks, bonds, real estate) offer varying returns and risk profiles.</p>
+                <p>Example: Use EasyEquities to buy stocks and ETFs for growth, bond ETFs for stability, and consider real estate for income and value appreciation.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Diversification</h3>
+                <p>Diversification means spreading investments across various asset classes to minimize risk. By diversifying, you can protect yourself from market fluctuations in one sector.</p>
+                <p>Example: Rather than investing all your money in one stock, you could invest in a mix of stocks, bonds, real estate, and a retirement plan to balance risk.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Asset Allocation & Diversification</h3>
+                <p>Asset allocation involves dividing your portfolio among different asset classes, while diversification spreads investments within those classes to reduce risk.</p>
+                <p>Example: Create a diversified portfolio on EasyEquities by investing in local and international ETFs and stocks from different sectors.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Compound Interest</h3>
+                <p>Compound interest is the interest on both the initial principal and the accumulated interest from previous periods, accelerating growth over time.</p>
+                <p>Example: R10,000 earning 8% annually grows to R14,693 after five years of compounding.</p>
+            </div>
 
-        <!-- Debt & Credit -->
-        <h3 class="group-title">Debt &amp; Credit</h3>
-        <div class="definition-item">
-            <h3>Credit Score</h3>
-            <p>Your credit score is a number that represents how reliable you are at repaying borrowed money. Lenders use it to decide whether to approve your loan or credit application.</p>
-            <p>Example: A score above 650 increases the likelihood of securing a home loan with better terms.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Credit Card</h3>
-            <p>A credit card allows you to borrow money up to a certain limit to make purchases. If you pay off the balance each month, you avoid interest and build a good credit history.</p>
-            <p>Example: Spending R5,000 monthly on a credit card and paying it off to avoid 18% annual interest charges.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Balloon Payment</h3>
-            <p>A balloon payment is a large, final payment due at the end of a loan term. It allows for smaller monthly payments during the loan period, but requires paying a big amount at the end.</p>
-            <p>Example: Paying R90,000 as a balloon payment for a R300,000 car after five years of financing.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Qualify vs. Afford</h3>
-            <p>Qualifying means a lender agrees to lend you a certain amount based on your credit profile. Affording means whether the loan repayments comfortably fit within your monthly budget.</p>
-            <p>Example: Qualifying for a R1 million loan but only affording repayments on R700,000 due to personal expenses.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Buying First Home</h3>
-            <p>Buying your first home involves saving for a deposit, getting a home loan (bond), and understanding additional costs like transfer duties and legal fees.</p>
-            <p>Example: Buying a R1 million home with a 10% deposit (R100,000) and covering R25,000 in bond registration fees.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Buying First Car</h3>
-            <p>Buying your first car means choosing between new or used vehicles, saving for a deposit, and deciding whether to pay cash or use vehicle financing.</p>
-            <p>Example: Buying a R150,000 used car with a 10% deposit (R15,000) and financing over three years.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Financing</h3>
-            <p>Financing means borrowing money to buy something now and paying it back over time with interest. It’s common for large purchases like cars or homes.</p>
-            <p>Example: Financing a car with a R200,000 loan at 11% interest for five years.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Interest Rate</h3>
-            <p>The interest rate is the cost of borrowing money or the return earned on savings. It's shown as a percentage and can significantly affect loan repayments or investment returns.</p>
-            <p>Example: Borrowing R100,000 at a 10% interest rate costs R10,000 annually in interest.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Prime Rate</h3>
-            <p>The prime rate is the base interest rate banks use when lending to customers. It is influenced by the central bank and affects the cost of loans.</p>
-            <p>Example: If the prime rate is 11%, a home loan may be offered at 12%, reflecting the borrower's risk profile.</p>
-        </div>
+            <!-- Markets & Products -->
+            <h3 class="group-title">Markets & Products</h3>
+            <div class="definition-item">
+                <h3>ETF (Exchange-Traded Fund)</h3>
+                <p>An ETF is a collection of stocks or bonds that tracks an index and is traded on a stock exchange. It provides diversification and usually has low fees.</p>
+                <p>Example: Investing in a SATRIX 40 ETF to gain exposure to the JSE's top-performing companies.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Unit Trust</h3>
+                <p>A unit trust is a fund where many investors pool their money, which is then managed by professionals to invest in stocks, bonds, or property.</p>
+                <p>Example: Saving R5,000 monthly in a balanced unit trust to fund future purchases.</p>
+            </div>
+            <div class="definition-item">
+                <h3>JSE (Johannesburg Stock Exchange)</h3>
+                <p>The JSE is South Africa’s main stock market where shares of companies are bought and sold. It allows investors to buy ownership in businesses.</p>
+                <p>Example: Buying MTN shares at R130 each through an online stockbroker.</p>
+            </div>
+            <div class="definition-item">
+                <h3>JSE Hours & Days</h3>
+                <p>The JSE operates Monday to Friday, from 9:00 AM to 5:00 PM, excluding South African public holidays.</p>
+                <p>Example: Trading Sasol shares on a Tuesday afternoon during market hours.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Alternative Stocks</h3>
+                <p>Alternative stocks refer to investments outside traditional sectors, such as renewable energy, commodities, or emerging tech companies.</p>
+                <p>Example: Investing in a green energy firm listed on the JSE.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Property</h3>
+                <p>Property investment involves buying real estate to earn rental income or benefit from long-term value increases.</p>
+                <p>Example: Owning a R2 million apartment that generates R15,000 monthly in rental income.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Stocks</h3>
+                <p>Stocks are shares of ownership in a company. Investors can earn money through price increases (capital gains) and dividends.</p>
+                <p>Example: Investing in Woolworths shares for steady dividend payouts.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Dividends</h3>
+                <p>Dividends are payments made by a company to its shareholders from its profits. They provide regular income to investors.</p>
+                <p>Example: Receiving R2,000 in annual dividends for holding 1,000 shares.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Bull Market</h3>
+                <p>A bull market occurs when stock prices are rising over time, indicating strong investor confidence and economic growth.</p>
+                <p>Example: The JSE Top 40 index gains 20% over six months due to strong corporate earnings.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Bear Market</h3>
+                <p>A bear market happens when stock prices drop 20% or more, often caused by economic slowdowns or negative investor sentiment.</p>
+                <p>Example: The JSE falls sharply during a recession, leading to a bear market.</p>
+            </div>
+            <div class="definition-item">
+                <h3>S&P 500</h3>
+                <p>The S&P 500 is a U.S. stock market index that tracks the 500 largest companies. It is used to measure the overall performance of the American stock market.</p>
+                <p>Example: Investing in an ETF tracking the S&P 500 for international diversification.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Top 40</h3>
+                <p>The Top 40 refers to the 40 largest companies listed on the JSE, by market value. It provides a snapshot of South Africa’s major businesses.</p>
+                <p>Example: Investing in a Top 40 ETF for exposure to leading South African firms.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Trust Fund</h3>
+                <p>A trust fund is a legal structure that holds money or assets on behalf of someone, usually for long-term care or inheritance purposes.</p>
+                <p>Example: Parents setting up a trust fund for their children’s education.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Middle Class</h3>
+                <p>The middle class includes people or families who earn enough to afford basic needs and some extra comforts. They usually have steady jobs and savings.</p>
+                <p>Example: A family earning R20,000 monthly, affording housing, schooling, and leisure activities.</p>
+            </div>
 
-        <!-- Savings & Retirement -->
-        <h3 class="group-title">Savings &amp; Retirement</h3>
-        <div class="definition-item">
-            <h3>Tax-Free Savings Account (TFSA)</h3>
-            <p>A TFSA is a savings or investment account where any interest, dividends, or capital gains earned are completely tax-free. There are annual and lifetime contribution limits, making it ideal for long-term growth.</p>
-            <p>Example: Investing in a TFSA linked to the JSE Top 40 index, earning tax-free capital gains over a decade.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Retirement</h3>
-            <p>Retirement planning involves setting aside money to cover your living expenses after you stop working. This includes estimating future needs, accounting for inflation, and investing in retirement products like pension funds or retirement annuities (RAs).</p>
-            <p>Example: Saving 15% of your income in an RA that grows at 8% annually to amass R2.5 million by age 65.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Retirement Savings</h3>
-            <p>Contributing to a retirement savings plan (such as a pension fund or retirement annuity) ensures long-term wealth and security.</p>
-            <p>Example: The South African government offers tax incentives for contributing to retirement savings plans.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Inflation &amp; Its Impact</h3>
-            <p>Inflation reduces the purchasing power of money over time, affecting the real value of your savings and investments.</p>
-            <p>Example: Invest in stocks, REITs, or inflation-protected securities like TIPS through EasyEquities to stay ahead of inflation.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Tax Efficiency</h3>
-            <p>Tax efficiency is about minimizing tax liabilities on your investments to maximize returns.</p>
-            <p>Example: Use a Tax Free Savings Account or Retirement Annuity on EasyEquities to grow wealth while reducing tax exposure.</p>
-        </div>
+            <!-- Debt & Credit -->
+            <h3 class="group-title">Debt & Credit</h3>
+            <div class="definition-item">
+                <h3>Credit Score</h3>
+                <p>Your credit score is a number that represents how reliable you are at repaying borrowed money. Lenders use it to decide whether to approve your loan or credit application.</p>
+                <p>Example: A score above 650 increases the likelihood of securing a home loan with better terms.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Credit Card</h3>
+                <p>A credit card allows you to borrow money up to a certain limit to make purchases. If you pay off the balance each month, you avoid interest and build a good credit history.</p>
+                <p>Example: Spending R5,000 monthly on a credit card and paying it off to avoid 18% annual interest charges.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Balloon Payment</h3>
+                <p>A balloon payment is a large, final payment due at the end of a loan term. It allows for smaller monthly payments during the loan period, but requires paying a big amount at the end.</p>
+                <p>Example: Paying R90,000 as a balloon payment for a R300,000 car after five years of financing.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Qualify vs. Afford</h3>
+                <p>Qualifying means a lender agrees to lend you a certain amount based on your credit profile. Affording means whether the loan repayments comfortably fit within your monthly budget.</p>
+                <p>Example: Qualifying for a R1 million loan but only affording repayments on R700,000 due to personal expenses.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Buying First Home</h3>
+                <p>Buying your first home involves saving for a deposit, getting a home loan (bond), and understanding additional costs like transfer duties and legal fees.</p>
+                <p>Example: Buying a R1 million home with a 10% deposit (R100,000) and covering R25,000 in bond registration fees.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Buying First Car</h3>
+                <p>Buying your first car means choosing between new or used vehicles, saving for a deposit, and deciding whether to pay cash or use vehicle financing.</p>
+                <p>Example: Buying a R150,000 used car with a 10% deposit (R15,000) and financing over three years.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Financing</h3>
+                <p>Financing means borrowing money to buy something now and paying it back over time with interest. It’s common for large purchases like cars or homes.</p>
+                <p>Example: Financing a car with a R200,000 loan at 11% interest for five years.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Interest Rate</h3>
+                <p>The interest rate is the cost of borrowing money or the return earned on savings. It's shown as a percentage and can significantly affect loan repayments or investment returns.</p>
+                <p>Example: Borrowing R100,000 at a 10% interest rate costs R10,000 annually in interest.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Prime Rate</h3>
+                <p>The prime rate is the base interest rate banks use when lending to customers. It is influenced by the central bank and affects the cost of loans.</p>
+                <p>Example: If the prime rate is 11%, a home loan may be offered at 12%, reflecting the borrower's risk profile.</p>
+            </div>
 
-        <!-- Risk & Technology -->
-        <h3 class="group-title">Risk &amp; Technology</h3>
-        <div class="definition-item">
-            <h3>Risk &amp; Risk Tolerance</h3>
-            <p>Risk tolerance is the level of variability in investment returns you're comfortable with.</p>
-            <p>Example: If you're risk-averse, invest in bonds; if you’re risk-tolerant, consider growth stocks or crypto via EasyEquities, but always diversify.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Financial Literacy</h3>
-            <p>Financial literacy is the understanding of key financial concepts like budgeting, investing, and credit.</p>
-            <p>Example: Improve your financial literacy through Coursera or LinkedIn Learning, and track your credit with ClearScore.</p>
-        </div>
-        <div class="definition-item">
-            <h3>Financial Advisors &amp; Technology</h3>
-            <p>Financial advisors provide expert guidance, while technology platforms simplify managing finances.</p>
-            <p>Example: Use EasyEquities, ClearScore, and TradingView to manage your investments, and consult a financial advisor for tailored advice.</p>
-        </div>
-        <div class="quiz-section">
+            <!-- Savings & Retirement -->
+            <h3 class="group-title">Savings & Retirement</h3>
+            <div class="definition-item">
+                <h3>Tax-Free Savings Account (TFSA)</h3>
+                <p>A TFSA is a savings or investment account where any interest, dividends, or capital gains earned are completely tax-free. There are annual and lifetime contribution limits, making it ideal for long-term growth.</p>
+                <p>Example: Investing in a TFSA linked to the JSE Top 40 index, earning tax-free capital gains over a decade.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Retirement</h3>
+                <p>Retirement planning involves setting aside money to cover your living expenses after you stop working. This includes estimating future needs, accounting for inflation, and investing in retirement products like pension funds or retirement annuities (RAs).</p>
+                <p>Example: Saving 15% of your income in an RA that grows at 8% annually to amass R2.5 million by age 65.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Retirement Savings</h3>
+                <p>Contributing to a retirement savings plan (such as a pension fund or retirement annuity) ensures long-term wealth and security.</p>
+                <p>Example: The South African government offers tax incentives for contributing to retirement savings plans.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Inflation & Its Impact</h3>
+                <p>Inflation reduces the purchasing power of money over time, affecting the real value of your savings and investments.</p>
+                <p>Example: Invest in stocks, REITs, or inflation-protected securities like TIPS through EasyEquities to stay ahead of inflation.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Tax Efficiency</h3>
+                <p>Tax efficiency is about minimizing tax liabilities on your investments to maximize returns.</p>
+                <p>Example: Use a Tax Free Savings Account or Retirement Annuity on EasyEquities to grow wealth while reducing tax exposure.</p>
+            </div>
 
-    <h3>Test Your Knowledge</h3>
-    <form>
-        <!-- True / False Questions -->
-        <div class="quiz-item">
-            <p>1. True or False: Compound interest is interest earned only on the original principal.</p>
-            <label><input type="radio" name="q1" value="true"> True</label>
-            <label><input type="radio" name="q1" value="false"> False</label>
-        </div>
-        <div class="quiz-item">
-            <p>2. True or False: A Tax-Free Savings Account (TFSA) grows your investment completely tax-free within contribution limits.</p>
-            <label><input type="radio" name="q2" value="true"> True</label>
-            <label><input type="radio" name="q2" value="false"> False</label>
-        </div>
-        <div class="quiz-item">
-            <p>3. True or False: A balloon payment is a small, initial deposit you pay at the start of a loan.</p>
-            <label><input type="radio" name="q3" value="true"> True</label>
-            <label><input type="radio" name="q3" value="false"> False</label>
-        </div>
-        <div class="quiz-item">
-            <p>4. True or False: Diversification can help reduce the impact of a single investment’s poor performance on your overall portfolio.</p>
-            <label><input type="radio" name="q4" value="true"> True</label>
-            <label><input type="radio" name="q4" value="false"> False</label>
-        </div>
+            <!-- Risk & Technology -->
+            <h3 class="group-title">Risk & Technology</h3>
+            <div class="definition-item">
+                <h3>Risk & Risk Tolerance</h3>
+                <p>Risk tolerance is the level of variability in investment returns you're comfortable with.</p>
+                <p>Example: If you're risk-averse, invest in bonds; if you’re risk-tolerant, consider growth stocks or crypto via EasyEquities, but always diversify.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Financial Literacy</h3>
+                <p>Financial literacy is the understanding of key financial concepts like budgeting, investing, and credit.</p>
+                <p>Example: Improve your financial literacy through Coursera or LinkedIn Learning, and track your credit with ClearScore.</p>
+            </div>
+            <div class="definition-item">
+                <h3>Financial Advisors & Technology</h3>
+                <p>Financial advisors provide expert guidance, while technology platforms simplify managing finances.</p>
+                <p>Example: Use EasyEquities, ClearScore, and TradingView to manage your investments, and consult a financial advisor for tailored advice.</p>
+            </div>
 
-        <!-- Multiple Choice Questions -->
-        <div class="quiz-item">
-            <p>5. Which of the following is considered a liability?</p>
-            <label><input type="radio" name="q5" value="a"> a) A rental property generating monthly income</label><br>
-            <label><input type="radio" name="q5" value="b"> b) An outstanding car loan</label><br>
-            <label><input type="radio" name="q5" value="c"> c) Shares of a JSE-listed company</label>
-        </div>
-        <div class="quiz-item">
-            <p>6. According to the 50/30/20 budgeting rule, what percentage of your income should go to savings or debt repayment?</p>
-            <label><input type="radio" name="q6" value="a"> a) 20%</label><br>
-            <label><input type="radio" name="q6" value="b"> b) 30%</label><br>
-            <label><input type="radio" name="q6" value="c"> c) 50%</label>
-        </div>
-        <div class="quiz-item">
-            <p>7. Which product tracks an index and trades on an exchange, offering low fees and instant diversification?</p>
-            <label><input type="radio" name="q7" value="a"> a) Unit Trust</label><br>
-            <label><input type="radio" name="q7" value="b"> b) Certificate of Deposit</label><br>
-            <label><input type="radio" name="q7" value="c"> c) ETF (Exchange-Traded Fund)</label>
-        </div>
-        <div class="quiz-item">
-            <p>8. Which term describes the baseline rate banks use when setting loan interest rates?</p>
-            <label><input type="radio" name="q8" value="a"> a) Prime Rate</label><br>
-            <label><input type="radio" name="q8" value="b"> b) Inflation Rate</label><br>
-            <label><input type="radio" name="q8" value="c"> c) Compound Rate</label>
-        </div>
-        <!-- Additional True / False Questions -->
-        <div class="quiz-item">
-            <p>9. True or False: An emergency fund should cover at least three to six months of living expenses.</p>
-            <label><input type="radio" name="q9" value="true"> True</label>
-            <label><input type="radio" name="q9" value="false"> False</label>
-        </div>
-        <div class="quiz-item">
-            <p>10. True or False: A higher credit score can lead to lower interest rates on loans.</p>
-            <label><input type="radio" name="q10" value="true"> True</label>
-            <label><input type="radio" name="q10" value="false"> False</label>
-        </div>
+            <!-- Additional Educational Modules from SA Money Savvy -->
+            <h3 class="group-title">Banking</h3>
+            <div class="definition-item">
+                <h3>Banking</h3>
+                <p>Understanding different South African banks and account types can help you manage your money effectively. Compare options like savings accounts, current accounts, and investment-linked accounts.</p>
+                <p>Example: Using Capitec for low-fee banking or FNB for integrated investment options.</p>
+            </div>
+            <h3 class="group-title">Personal Finance Goals</h3>
+            <div class="definition-item">
+                <h3>Personal Finance Goals</h3>
+                <p>Setting clear financial goals—whether saving for a car, wedding, or retirement—helps you prioritize and plan your finances.</p>
+                <p>Example: Saving R10,000 over 6 months for a wedding by cutting unnecessary expenses.</p>
+            </div>
 
-        <!-- Additional Multiple Choice Questions -->
-        <div class="quiz-item">
-            <p>11. Which account allows you to earn tax-free returns up to an annual contribution limit?</p>
-            <label><input type="radio" name="q11" value="a"> a) Retirement Annuity</label><br>
-            <label><input type="radio" name="q11" value="b"> b) Tax-Free Savings Account (TFSA)</label><br>
-            <label><input type="radio" name="q11" value="c"> c) Unit Trust</label>
-        </div>
-        <div class="quiz-item">
-            <p>12. What does “liability” refer to in personal finance?</p>
-            <label><input type="radio" name="q12" value="a"> a) An asset that appreciates over time</label><br>
-            <label><input type="radio" name="q12" value="b"> b) A legal arrangement holding assets for beneficiaries</label><br>
-            <label><input type="radio" name="q12" value="c"> c) A debt or expense that reduces your net worth</label>
-        </div>
-        <div class="quiz-item">
-            <p>13. When you reinvest dividends back into the same investment, which concept are you leveraging?</p>
-            <label><input type="radio" name="q13" value="a"> a) Asset Allocation</label><br>
-            <label><input type="radio" name="q13" value="b"> b) Compound Interest</label><br>
-            <label><input type="radio" name="q13" value="c"> c) Balloon Payment</label>
-        </div>
-        <div class="quiz-item">
-            <p>14. If you spend more than you earn in a month, you have:</p>
-            <label><input type="radio" name="q14" value="a"> a) Positive cash flow</label><br>
-            <label><input type="radio" name="q14" value="b"> b) Negative cash flow</label><br>
-            <label><input type="radio" name="q14" value="c"> c) A bull market</label>
-        </div>
-    </form>
-</div>
-    </div>
-</section>
+            <div class="quiz-section">
+                <h3>Test Your Knowledge</h3>
+                <form>
+                    <!-- True / False Questions -->
+                    <div class="quiz-item">
+                        <p>1. True or False: Compound interest is interest earned only on the original principal.</p>
+                        <label><input type="radio" name="q1" value="true"> True</label>
+                        <label><input type="radio" name="q1" value="false"> False</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>2. True or False: A Tax-Free Savings Account (TFSA) grows your investment completely tax-free within contribution limits.</p>
+                        <label><input type="radio" name="q2" value="true"> True</label>
+                        <label><input type="radio" name="q2" value="false"> False</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>3. True or False: A balloon payment is a small, initial deposit you pay at the start of a loan.</p>
+                        <label><input type="radio" name="q3" value="true"> True</label>
+                        <label><input type="radio" name="q3" value="false"> False</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>4. True or False: Diversification can help reduce the impact of a single investment’s poor performance on your overall portfolio.</p>
+                        <label><input type="radio" name="q4" value="true"> True</label>
+                        <label><input type="radio" name="q4" value="false"> False</label>
+                    </div>
 
- 
+                    <!-- Multiple Choice Questions -->
+                    <div class="quiz-item">
+                        <p>5. Which of the following is considered a liability?</p>
+                        <label><input type="radio" name="q5" value="a"> a) A rental property generating monthly income</label><br>
+                        <label><input type="radio" name="q5" value="b"> b) An outstanding car loan</label><br>
+                        <label><input type="radio" name="q5" value="c"> c) Shares of a JSE-listed company</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>6. According to the 50/30/20 budgeting rule, what percentage of your income should go to savings or debt repayment?</p>
+                        <label><input type="radio" name="q6" value="a"> a) 20%</label><br>
+                        <label><input type="radio" name="q6" value="b"> b) 30%</label><br>
+                        <label><input type="radio" name="q6" value="c"> c) 50%</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>7. Which product tracks an index and trades on an exchange, offering low fees and instant diversification?</p>
+                        <label><input type="radio" name="q7" value="a"> a) Unit Trust</label><br>
+                        <label><input type="radio" name="q7" value="b"> b) Certificate of Deposit</label><br>
+                        <label><input type="radio" name="q7" value="c"> c) ETF (Exchange-Traded Fund)</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>8. Which term describes the baseline rate banks use when setting loan interest rates?</p>
+                        <label><input type="radio" name="q8" value="a"> a) Prime Rate</label><br>
+                        <label><input type="radio" name="q8" value="b"> b) Inflation Rate</label><br>
+                        <label><input type="radio" name="q8" value="c"> c) Compound Rate</label>
+                    </div>
+                    <!-- Additional True / False Questions -->
+                    <div class="quiz-item">
+                        <p>9. True or False: An emergency fund should cover at least three to six months of living expenses.</p>
+                        <label><input type="radio" name="q9" value="true"> True</label>
+                        <label><input type="radio" name="q9" value="false"> False</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>10. True or False: A higher credit score can lead to lower interest rates on loans.</p>
+                        <label><input type="radio" name="q10" value="true"> True</label>
+                        <label><input type="radio" name="q10" value="false"> False</label>
+                    </div>
 
-   <section id="youtube">
+                    <!-- Additional Multiple Choice Questions -->
+                    <div class="quiz-item">
+                        <p>11. Which account allows you to earn tax-free returns up to an annual contribution limit?</p>
+                        <label><input type="radio" name="q11" value="a"> a) Retirement Annuity</label><br>
+                        <label><input type="radio" name="q11" value="b"> b) Tax-Free Savings Account (TFSA)</label><br>
+                        <label><input type="radio" name="q11" value="c"> c) Unit Trust</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>12. What does “liability” refer to in personal finance?</p>
+                        <label><input type="radio" name="q12" value="a"> a) An asset that appreciates over time</label><br>
+                        <label><input type="radio" name="q12" value="b"> b) A legal arrangement holding assets for beneficiaries</label><br>
+                        <label><input type="radio" name="q12" value="c"> c) A debt or expense that reduces your net worth</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>13. When you reinvest dividends back into the same investment, which concept are you leveraging?</p>
+                        <label><input type="radio" name="q13" value="a"> a) Asset Allocation</label><br>
+                        <label><input type="radio" name="q13" value="b"> b) Compound Interest</label><br>
+                        <label><input type="radio" name="q13" value="c"> c) Balloon Payment</label>
+                    </div>
+                    <div class="quiz-item">
+                        <p>14. If you spend more than you earn in a month, you have:</p>
+                        <label><input type="radio" name="q14" value="a"> a) Positive cash flow</label><br>
+                        <label><input type="radio" name="q14" value="b"> b) Negative cash flow</label><br>
+                        <label><input type="radio" name="q14" value="c"> c) A bull market</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="youtube">
         <div class="container">
             <h2>YouTube Channels</h2>
             <p>Explore these channels for financial education tailored to your level, from beginner to advanced.</p>
-            <h2>South African Channels</h3>
+            <h3>South African Channels</h3>
             <!-- South African Channels -->
             <div class="project-grid">
                 <div class="project-card">
@@ -532,7 +566,7 @@
                     <a href="https://youtube.com/@fnbtv?feature=shared" target="_blank" class="btn btn-primary">View Channel</a>
                 </div>
                 <!-- Property Space -->
-                <h2>Property Channels</h3>
+                <h3>Property Channels</h3>
                 <div class="project-card">
                     <img src="quiz-placeholder.jpg" alt="Quiz App" loading="lazy">
                     <h3>Let’s Prop’In</h3>
@@ -574,7 +608,7 @@
                     <a href="https://youtube.com/@muzisambo?si=fAxSonbU9TNMPFUj " target="_blank" class="btn btn-primary">View Channel</a>
                 </div>
                 <!-- International Channels -->
-                <h2>International Channels</h3>
+                <h3>International Channels</h3>
                 <div class="project-card">
                     <img src="quiz-placeholder.jpg" alt="Quiz App" loading="lazy">
                     <h3>Nischa</h3>
@@ -624,8 +658,6 @@
                 </div>
         </div>
 
-
-    </div>
             <h3>Specific Videos</h3>
             <div class="project-grid">
                 <div class="project-card">
@@ -640,10 +672,9 @@
                 </div>
             </div>
         </div>
-
     </section>
- 
-   <section id="podcasts">
+
+    <section id="podcasts">
         <div class="container">
             <h2>Podcasts</h2>
             <p>Listen to financial podcasts for on-the-go learning. Perfect for deepening your understanding.</p>
@@ -654,128 +685,158 @@
                     <p>Offers practical advice on personal finance and investing for South Africans.</p>
                     <a href="https://honestmoney.co.za/podcast/" target="_blank" class="btn btn-primary">Listen Now</a>
                 </div>
-                
             </div>
         </div>
     </section>
 
-<section id="articles">
-    <div class="container">
-        <h2>Articles</h2>
-        <p>Read insightful articles from trusted sources to expand your financial knowledge.</p>
-        <div class="Article_Page-grid">
-
-            <!-- MoneyWeb -->
-            <div class="project-card">
-                <h3>MoneyWeb</h3>
-                <p>Moneyweb is a financial media group and a wholly-owned subsidiary of AME. We focus on producing independent, high-quality investment information across internet, radio, print, newsletters and event activations.</p>
-                <a href="https://www.moneyweb.co.za/" target="_blank" class="btn btn-primary">View Site</a>
+    <section id="articles">
+        <div class="container">
+            <h2>Articles</h2>
+            <p>Read insightful articles from trusted sources to expand your financial knowledge.</p>
+            <div class="Article_Page-grid">
+                <!-- MoneyWeb -->
+                <div class="project-card">
+                    <h3>MoneyWeb</h3>
+                    <p>Moneyweb is a financial media group and a wholly-owned subsidiary of AME. We focus on producing independent, high-quality investment information across internet, radio, print, newsletters and event activations.</p>
+                    <a href="https://www.moneyweb.co.za/" target="_blank" class="btn btn-primary">View Site</a>
+                </div>
+                <!-- Investopedia -->
+                <div class="project-card">
+                    <img src="investopedia-logo.png" alt="Investopedia" loading="lazy">
+                    <h3>Investopedia</h3>
+                    <p>The ultimate financial education site, offering definitions, tutorials, market news, and simulator tools to help you learn key concepts from budgeting to derivatives.</p>
+                    <p><strong>URL:</strong> <a href="https://www.investopedia.com" target="_blank">investopedia.com</a></p>
+                </div>
+                <!-- Fin24 -->
+                <div class="project-card">
+                    <img src="fin24-logo.png" alt="Fin24" loading="lazy">
+                    <h3>Fin24</h3>
+                    <p>South Africa’s leading business news portal—covering markets, personal finance, and investing insights tailored to the local economy.</p>
+                    <p><strong>URL:</strong> <a href="https://www.fin24.com" target="_blank">fin24.com</a></p>
+                </div>
+                <!-- BusinessTech -->
+                <div class="project-card">
+                    <img src="businesstech-logo.png" alt="BusinessTech" loading="lazy">
+                    <h3>BusinessTech</h3>
+                    <p>South Africa’s largest technology and business news site—covering fintech, banking tech, and personal finance innovations.</p>
+                    <p><strong>URL:</strong> <a href="https://businesstech.co.za" target="_blank">businesstech.co.za</a></p>
+                </div>
+                <!-- NerdWallet -->
+                <div class="project-card">
+                    <img src="nerdwallet-logo.png" alt="NerdWallet" loading="lazy">
+                    <h3>NerdWallet</h3>
+                    <p>Comprehensive US-based resource for comparing credit cards, loans, insurance products, and creating personalized money-management plans.</p>
+                    <p><strong>URL:</strong> <a href="https://www.nerdwallet.com" target="_blank">nerdwallet.com</a></p>
+                </div>
+                <!-- Yahoo Finance -->
+                <div class="project-card">
+                    <h3>Yahoo Finance</h3>
+                    <p>Yahoo Finance provides financial news, data and commentary including stock quotes, press releases, financial reports, and original content.</p>
+                    <a href="https://finance.yahoo.com/" target="_blank" class="btn btn-primary">View Site</a>
+                </div>
+                <!-- Financial Times Market News -->
+                <div class="project-card">
+                    <h3>Financial Times Market News</h3>
+                    <p>The Financial Times is a leading international business newspaper providing global market news, in-depth analysis, and expert commentary.</p>
+                    <a href="https://www.ft.com/markets" target="_blank" class="btn btn-primary">View Site</a>
+                </div>
+                <!-- Daily Investor -->
+                <div class="project-card">
+                    <h3>Daily Investor</h3>
+                    <p>Daily Investor provides financial and investing news, market data, and in-depth company analysis tailored for South African investors.</p>
+                    <a href="https://dailyinvestor.com/" target="_blank" class="btn btn-primary">View Site</a>
+                </div>
+                <!-- Old Mutual Financial Education -->
+                <div class="project-card">
+                    <h3>Old Mutual Financial Education</h3>
+                    <p>Old Mutual offers free online financial education resources—articles, videos, courses and tools—to help you manage your finances with confidence.</p>
+                    <a href="https://www.oldmutual.co.za/personal/solutions/financial-education/" target="_blank" class="btn btn-primary">View Site</a>
+                </div>
+                <!-- MoneyUp Academy -->
+                <div class="project-card">
+                    <h3>MoneyUp Academy</h3>
+                    <p>The MoneyUp Academy is a free, web-based financial education platform that offers a fun and easy way to build your money knowledge and skills.</p>
+                    <a href="https://moneyup.co.za/" target="_blank" class="btn btn-primary">View Site</a>
+                </div>
+                <!-- QuickBooks -->
+                <div class="project-card">
+                    <h3>QuickBooks</h3>
+                    <p>QuickBooks is accounting software for small and medium-sized businesses developed by Intuit, offering cloud-based and desktop solutions for invoicing, expense tracking, payroll and reporting.</p>
+                    <a href="https://quickbooks.intuit.com/za/" target="_blank" class="btn btn-primary">View Site</a>
+                </div>
+                <!-- Wonga Money Academy -->
+                <div class="project-card">
+                    <h3>Wonga Money Academy</h3>
+                    <p>Wonga’s Money Academy offers free video lessons and quizzes on the four pillars of financial literacy—debt, savings, budgeting, and investing.</p>
+                    <a href="https://www.wonga.co.za/blog/free-financial-literacy-resources" target="_blank" class="btn btn-primary">View Site</a>
+                </div>
+                <!-- Biblical Money Wisdom -->
+                <div class="project-card">
+                    <h3>Biblical Money Wisdom for College Students</h3>
+                    <p>Navigate the financial challenges of college life with timeless biblical principles. This 3-day plan offers practical advice for managing money, avoiding debt, and cultivating generosity during your academic journey.</p>
+                    <a href="https://www.bible.com/reading-plans/52750-biblical-money-wisdom-for-college-students" target="_blank" class="btn btn-primary">View Plan</a>
+                </div>
             </div>
-
-            <!-- Investopedia -->
-            <div class="project-card">
-                <img src="investopedia-logo.png" alt="Investopedia" loading="lazy">
-                <h3>Investopedia</h3>
-                <p>The ultimate financial education site, offering definitions, tutorials, market news, and simulator tools to help you learn key concepts from budgeting to derivatives.</p>
-                <p><strong>URL:</strong> <a href="https://www.investopedia.com" target="_blank">investopedia.com</a></p>
-            </div>
-
-            <!-- Fin24 -->
-            <div class="project-card">
-                <img src="fin24-logo.png" alt="Fin24" loading="lazy">
-                <h3>Fin24</h3>
-                <p>South Africa’s leading business news portal—covering markets, personal finance, and investing insights tailored to the local economy.</p>
-                <p><strong>URL:</strong> <a href="https://www.fin24.com" target="_blank">fin24.com</a></p>
-            </div>
-
-            <!-- BusinessTech -->
-            <div class="project-card">
-                <img src="businesstech-logo.png" alt="BusinessTech" loading="lazy">
-                <h3>BusinessTech</h3>
-                <p>South Africa’s largest technology and business news site—covering fintech, banking tech, and personal finance innovations.</p>
-                <p><strong>URL:</strong> <a href="https://businesstech.co.za" target="_blank">businesstech.co.za</a></p>
-            </div>
-
-            <!-- NerdWallet -->
-            <div class="project-card">
-                <img src="nerdwallet-logo.png" alt="NerdWallet" loading="lazy">
-                <h3>NerdWallet</h3>
-                <p>Comprehensive US-based resource for comparing credit cards, loans, insurance products, and creating personalized money-management plans.</p>
-                <p><strong>URL:</strong> <a href="https://www.nerdwallet.com" target="_blank">nerdwallet.com</a></p>
-            </div>
-
-            <!-- Yahoo Finance -->
-            <div class="project-card">
-                <h3>Yahoo Finance</h3>
-                <p>Yahoo Finance provides financial news, data and commentary including stock quotes, press releases, financial reports, and original content.</p> <!-- :contentReference[oaicite:0]{index=0} -->
-                <a href="https://finance.yahoo.com/" target="_blank" class="btn btn-primary">View Site</a>
-            </div>
-
-            <!-- Financial Times Market News -->
-            <div class="project-card">
-                <h3>Financial Times Market News</h3>
-                <p>The Financial Times is a leading international business newspaper providing global market news, in-depth analysis, and expert commentary.</p> <!-- :contentReference[oaicite:1]{index=1} -->
-                <a href="https://www.ft.com/markets" target="_blank" class="btn btn-primary">View Site</a>
-            </div>
-
-            <!-- Daily Investor -->
-            <div class="project-card">
-                <h3>Daily Investor</h3>
-                <p>Daily Investor provides financial and investing news, market data, and in-depth company analysis tailored for South African investors.</p> <!-- :contentReference[oaicite:2]{index=2} -->
-                <a href="https://dailyinvestor.com/" target="_blank" class="btn btn-primary">View Site</a>
-            </div>
-
-            <!-- Old Mutual Financial Education -->
-            <div class="project-card">
-                <h3>Old Mutual Financial Education</h3>
-                <p>Old Mutual offers free online financial education resources—articles, videos, courses and tools—to help you manage your finances with confidence.</p> <!-- :contentReference[oaicite:3]{index=3} -->
-                <a href="https://www.oldmutual.co.za/personal/solutions/financial-education/" target="_blank" class="btn btn-primary">View Site</a>
-            </div>
-
-            <!-- MoneyUp Academy -->
-            <div class="project-card">
-                <h3>MoneyUp Academy</h3>
-                <p>The MoneyUp Academy is a free, web-based financial education platform that offers a fun and easy way to build your money knowledge and skills.</p> <!-- :contentReference[oaicite:4]{index=4} -->
-                <a href="https://moneyup.co.za/" target="_blank" class="btn btn-primary">View Site</a>
-            </div>
-
-            <!-- QuickBooks -->
-            <div class="project-card">
-                <h3>QuickBooks</h3>
-                <p>QuickBooks is accounting software for small and medium-sized businesses developed by Intuit, offering cloud-based and desktop solutions for invoicing, expense tracking, payroll and reporting.</p> <!-- :contentReference[oaicite:5]{index=5} -->
-                <a href="https://quickbooks.intuit.com/za/" target="_blank" class="btn btn-primary">View Site</a>
-            </div>
-
-            <!-- Wonga Money Academy -->
-            <div class="project-card">
-                <h3>Wonga Money Academy</h3>
-                <p>Wonga’s Money Academy offers free video lessons and quizzes on the four pillars of financial literacy—debt, savings, budgeting, and investing.</p> <!-- :contentReference[oaicite:6]{index=6} -->
-                <a href="https://www.wonga.co.za/blog/free-financial-literacy-resources" target="_blank" class="btn btn-primary">View Site</a>
-            </div>
-
-            <!-- Biblical Money Wisdom -->
-            <div class="project-card">
-                <h3>Biblical Money Wisdom for College Students</h3>
-                <p>Navigate the financial challenges of college life with timeless biblical principles. This 3-day plan offers practical advice for managing money, avoiding debt, and cultivating generosity during your academic journey.</p> <!-- :contentReference[oaicite:7]{index=7} -->
-                <a href="https://www.bible.com/reading-plans/52750-biblical-money-wisdom-for-college-students" target="_blank" class="btn btn-primary">View Plan</a>
-            </div>
-
         </div>
-    </div>
-</section>
+    </section>
 
     <section id="news">
         <div class="container">
             <h2>News</h2>
             <p>Stay updated with the latest financial news from trusted sources via RSS feeds.</p>
-            <div class="project-card">
-                <h3>Mag 7 VS Terrific 10</h3>
-                <p>We have heard of the Mag 7, but have you heard of the Terrific 10</p>
-                <p>The Terrific 10 (and their closest U.S. counterparts) include: Alibaba (Amazon, Microsoft); Tencent (Amazon, Microsoft); Meituan (Amazon); Xiaomi (Apple); JD.com (Amazon); NetEase (Microsoft); Baidu (Google); BYD (Tesla); Geely (Tesla); and SMIC (Nvidia)</p>
-                <p>The Magnificent Seven include Apple, Microsoft, Amazon, Alphabet (parent of Google), Tesla, Nvidia, and Meta Platforms</p>
-                <a href="https://finance.yahoo.com/video/mag-7-vs-terrific-10-233000127.html" target="_blank" class="btn btn-primary">Read More</a>            
-             </div>        
-             <div class="project-card">
+            <h3>News & Key Statistics</h3>
+            <p>Stay informed on South Africa’s economic and financial landscape with these key metrics and trusted sources.</p>
+            <div class="project-grid">
+                <!-- Inflation -->
+                <div class="project-card">
+                    <h3>Inflation Rate</h3>
+                    <p>Headline CPI inflation for April 2025 was 2.8%, up slightly from 2.7% in March. Food & non-alcoholic beverage inflation rose to 4.0%, the highest since September 2024.</p>
+                    <a href="https://www.statssa.gov.za/?p=18421" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+                <!-- Consumer Sentiment -->
+                <div class="project-card">
+                    <h3>Consumer Confidence</h3>
+                    <p>South Africa’s consumer confidence index fell to -20 points in Q1 2025, down from -6 in Q4 2024, reflecting growing pessimism about the economic outlook.</p>
+                    <a href="https://tradingeconomics.com/south-africa/consumer-confidence" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+                <!-- Unemployment -->
+                <div class="project-card">
+                    <h3>Unemployment Rate</h3>
+                    <p>The official unemployment rate rose to 32.9% in Q1 2025, with 8.228 million South Africans unemployed. Including discouraged job-seekers, the expanded rate hit 43.1%.</p>
+                    <a href="https://www.reuters.com/world/africa/south-africas-unemployment-rate-rises-329-first-quarter-2025-05-13/" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+                <!-- Financial Education -->
+                <div class="project-card">
+                    <h3>Financial Literacy</h3>
+                    <p>Only around 51% of adult South Africans are considered financially literate, highlighting the need for improved education and outreach.</p>
+                    <a href="https://trialogueknowledgehub.co.za/financial-literacy-in-south-africa-impact-and-solutions/" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+                <!-- Retirement Coverage -->
+                <div class="project-card">
+                    <h3>Retirement Coverage</h3>
+                    <p>For 75% of South Africa’s elderly, the government’s old-age grant is their main retirement income—implying only about 25% rely primarily on funded pension benefits.</p>
+                    <a href="https://www.pensionfundsonline.co.uk/content/country-profiles/south-africa" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+                <!-- Repo Rate -->
+                <div class="project-card">
+                    <h3>SARB Repo Rate</h3>
+                    <p>After a 25 basis point cut on 29 May 2025, the South African Reserve Bank’s repo rate stands at 7.25%, aiming to support growth while keeping inflation within the 3–6% target range.</p>
+                    <a href="https://www.reuters.com/world/africa/south-africa-gdp-growth-outlook-gets-biggest-cut-since-early-2023-sarb-trim-2025-05-27/" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+                <!-- GDP Growth Forecast -->
+                <div class="project-card">
+                    <h3>GDP Growth Forecast</h3>
+                    <p>Economists have downgraded South Africa’s 2025 GDP growth forecast to 1.2%, a 0.3 percentage point cut due to global trade uncertainties and ongoing power constraints.</p>
+                    <a href="https://www.reuters.com/world/africa/south-africa-gdp-growth-outlook-gets-biggest-cut-since-early-2023-sarb-trim-2025-05-27/" target="_blank" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Mag 7 VS Terrific 10</h3>
+                    <p>We have heard of the Mag 7, but have you heard of the Terrific 10</p>
+                    <p>The Terrific 10 (and their closest U.S. counterparts) include: Alibaba (Amazon, Microsoft); Tencent (Amazon, Microsoft); Meituan (Amazon); Xiaomi (Apple); JD.com (Amazon); NetEase (Microsoft); Baidu (Google); BYD (Tesla); Geely (Tesla); and SMIC (Nvidia)</p>
+                    <p>The Magnificent Seven include Apple, Microsoft, Amazon, Alphabet (parent of Google), Tesla, Nvidia, and Meta Platforms</p>
+                    <a href="https://finance.yahoo.com/video/mag-7-vs-terrific-10-233000127.html" target="_blank" class="btn btn-primary">Read More</a>            
+                </div>        
+                <div class="project-card">
                     <h3>Zero-Rated Items</h3>
                     <p>Zero-rated items are taxable for VAT purposes but are taxed at a 0% rate. This allows businesses to claim input tax credits on expenses incurred in producing these goods or services. </p>
                     <p>Basic Foodstuffs: A list of 19 essential food items is zero-rated to promote affordability.</p>
@@ -799,20 +860,49 @@
                         <li>Edible legumes and pulses of leguminous plants</li>
                     </ul>
                 </div>
-             </div>
-         </div>
+            </div>
+        </div>
     </section>
 
-       <section id="community">
+    <section id="courses">
+        <div class="container">
+            <h2>Courses & Workshops</h2>
+            <p>Enhance your financial knowledge with our free courses and workshops:</p>
+            <ul>
+                <li><strong>Free Email Course on Budgeting:</strong> Learn how to create and stick to a budget. <a href="#">Sign up</a></li>
+                <li><strong>Investing 101 Webinar:</strong> Understand the basics of investing in South Africa. <a href="#">Register</a></li>
+                <li><strong>FIRE in SA - Online Guide:</strong> Discover how to achieve financial independence and retire early. <a href="#">Access Guide</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="community">
         <div class="container">
             <h2>Join Our Community</h2>
-            <p>(                                             )</p>
+            <p>Connect with others to ask questions, share tips, and read real testimonials.</p>
+            <ul>
+                <li><a href="#">Join our WhatsApp Group</a></li>
+                <li><a href="#">Join our Telegram Group</a></li>
+            </ul>
             <a href="#" class="btn btn-primary">Join the Forum</a>
         </div>
     </section>
 
+    <section id="faq">
+        <div class="container">
+            <h2>FAQs</h2>
+            <dl>
+                <dt>How do I get a free credit report?</dt>
+                <dd>You can request a free credit report once a year from credit bureaus like Experian or TransUnion. Visit their websites for more information.</dd>
+                <dt>Is EasyEquities safe?</dt>
+                <dd>EasyEquities is a regulated platform in South Africa, and your investments are held in a nominee account for security. Always ensure you understand the risks before investing.</dd>
+                <dt>What is a Tax-Free Savings Account?</dt>
+                <dd>A TFSA allows you to save or invest up to R36,000 per year without paying tax on the growth or returns. It's a great way to save for long-term goals.</dd>
+            </dl>
+        </div>
+    </section>
 
-     <section id="contact">
+    <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
             <div class="contact-info">
@@ -835,12 +925,37 @@
                 </form>
                 <div id="form-message" class="form-message"></div>
             </div>
+            <div class="newsletter-signup">
+                <h2>Newsletter Signup</h2>
+                <p>Get free templates, investment tips, and more every month.</p>
+                <form action="https://formspree.io/f/YOUR_NEWSLETTER_FORM_ID" method="POST">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <div class="container">
+            <h2>Money Personality Quiz</h2>
+            <p>Answer the following questions to discover your money personality.</p>
+            <form id="quiz-form">
+                <p>1. How do you feel about budgeting?</p>
+                <label><input type="radio" name="q1" value="a"> I love it and stick to it strictly.</label><br>
+                <label><input type="radio" name="q1" value="b"> I try, but it's hard to follow.</label><br>
+                <label><input type="radio" name="q1" value="c"> I don't budget at all.</label><br>
+                <!-- Add more questions as needed -->
+                <button type="submit">Submit</button>
+            </form>
+            <div id="quiz-result"></div>
         </div>
     </section>
 
     <footer>
         <div class="container">
             <p>© 2025 FinLit. All rights reserved.</p>
+            <p>This website provides educational information only and is not financial advice. POPIA-compliant. Terms & Conditions apply.</p>
         </div>
     </footer>
 
