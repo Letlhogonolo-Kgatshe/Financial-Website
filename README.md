@@ -1,11 +1,11 @@
-FinLit - Financial Literacy Website
+SAFE - south african financial education Website
 Overview
-FinLit is a financial literacy website designed to empower beginners and intermediate learners with accessible, practical knowledge on topics like budgeting, saving, investing, debt management, financial goals, and taxes. The platform aims to make financial education as common as everyday conversation, offering curated resources, a community forum, and interactive tools like quizzes to enhance learning. The website features a modern, user-friendly design with a focus on accessibility and engagement.
-Disclaimer: None of the information provided on FinLit constitutes financial advice. For personalized financial advice, consult a professional registered and certified with the Financial Sector Conduct Authority (FSCA). This is financial information only.
+SAFE is a south african financial education website designed to empower beginners and intermediate learners with accessible, practical knowledge on topics like budgeting, saving, investing, debt management, financial goals, and taxes. The platform aims to make financial education as common as everyday conversation, offering curated resources, a community forum, and interactive tools like quizzes to enhance learning. The website features a modern, user-friendly design with a focus on accessibility and engagement.
+Disclaimer: None of the information provided on SAFE constitutes financial advice. For personalized financial advice, consult a professional registered and certified with the Financial Sector Conduct Authority (FSCA). This is financial information only.
 Features
 
 Home Page: Welcomes users with a clear mission statement and a call-to-action to explore resources or join the community.
-About Section: Outlines FinLit’s mission to normalize financial conversations and support novice investors.
+About Section: Outlines SAFE’s mission to normalize financial conversations and support novice investors.
 How to Start: Guides beginners with links to definitions, YouTube channels, and investment platforms like EasyEquities.
 Definitions Page: Provides simple explanations of financial terms (e.g., budgeting, saving) with examples, diagrams, and a true/false quiz to test understanding.
 YouTube Page: Curates South African and international YouTube channels (e.g., Financial Bunny, Nischa) and specific videos for deeper learning.
@@ -16,12 +16,12 @@ Community Section: Encourages user interaction through a Quora-like forum and a 
 Contact Section: Includes contact details and a form for user inquiries.
 
 Project Structure
-FinLit/
+SAFE/
 ├── index.html          # Main HTML file with all sections
 ├── script.js           # JavaScript for navigation, smooth scrolling, and quiz functionality
 ├── styles.css          # CSS for styling the website
 ├── favicon.png         # Website favicon
-├── FinLit(1).img.JPG   # Logo image
+├── SAFE(1).img.JPG   # Logo image
 ├── images/             # Placeholder for images (e.g., financial-bunny.jpg, budgeting-diagram.jpg)
 └── README.md           # This file
 
@@ -29,7 +29,7 @@ Setup Instructions
 
 Clone the Repository:
 git clone <repository-url>
-cd FinLit
+cd SAFE
 
 
 Install Dependencies:
@@ -55,7 +55,7 @@ Sign up at Formspree to get your form ID.
 Image Assets:
 
 Replace placeholder images (e.g., financial-bunny.jpg, budgeting-diagram.jpg) with actual images in the images/ folder.
-Ensure FinLit(1).img.JPG exists or update the logo path in index.html.
+Ensure SAFE(1).img.JPG exists or update the logo path in index.html.
 
 
 
@@ -84,7 +84,7 @@ Add more diagrams and infographics for visual learning.
 Contributing
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes. Ensure code follows the existing style and includes comments for clarity.
 License
-© 2025 FinLit. All rights reserved.
+© 2025 SAFE. All rights reserved.
 Contact
 For questions or feedback, reach out to:
 
